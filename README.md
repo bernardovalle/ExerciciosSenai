@@ -1,0 +1,2 @@
+# exerciciosSenai
+Exercícios resolvidos
