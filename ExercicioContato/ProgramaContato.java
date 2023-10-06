@@ -72,7 +72,7 @@ public class ProgramaContato {
 	public static void editarContato(List<Contato> list, String nomeContato) {
 		Scanner leia =  new Scanner(System.in);
 		for(int i=0;i<list.size(); i++) {
-			if(list.get(i).getNome() == nomeContato) {
+			if(list.get(i).getNome().equals(nomeContato)) {
 				System.out.println("Informe o novo número do contato: ");
 				int numero = leia.nextInt();
 				list.get(i).setTelefone(numero);
